@@ -30,3 +30,6 @@ type Checksum =
         let hashAlgorithm = defaultArg hashAlgorithm ChecksumHashAlgorithm.SHA256
 
         hash = Checksum.CalculateFileHash(filepath, hashAlgorithm)
+
+// TODO
+// CalculateFilesHash : (fileIncludes: FileIncludes, ?hashAlgorithm) -> string
